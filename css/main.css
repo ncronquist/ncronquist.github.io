@@ -43,7 +43,6 @@ header {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);filter: grayscale(100%);
   border-radius: 100px;
-  /*margin: 0px 50px 0px 0px;*/
 }
 
 .header-text h1 {
@@ -59,7 +58,6 @@ header {
   }
   .intro img {
     float: none;
-    /*text-align: center;*/
   }
 
   .header-text {
@@ -69,7 +67,6 @@ header {
 
   .header-text h1 {
     clear: both;
-    /*text-align: center;*/
   }
 
 
