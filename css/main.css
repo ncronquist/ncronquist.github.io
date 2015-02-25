@@ -51,7 +51,7 @@ header {
   color: white;
   min-height: 950px;
   text-align: center;
-  margin: 0px 0px 200px 0px;
+  /*margin: 0px 0px 200px 0px;*/
 }
 
 .intro {
@@ -74,21 +74,38 @@ section {
 /*  margin-left: auto;
   margin-right: auto;*/
   margin: 0px auto 200px auto;
-  padding: 50px 0px 0px 0px;
+  padding: 200px 0px 0px 0px;
 }
 
 section#footer {
   margin: 400px auto 20px auto;
   padding: 0px;
+  text-align: center;
 }
 
 ul {
   text-align: center;
+  /*margin-top: 50px;*/
+  padding: 0px;
 }
 
 li {
   display: inline;
   padding: 0px 10px 0px 10px;
+}
+
+li a {
+  display: inline-block;
+  margin: 20px 0px 0px 0px;
+  width: 120px;
+  max-width: 120px;
+}
+
+li a:hover {
+  outline: solid;
+  outline-width: 1px;
+  outline-color: #417ADC;
+  color: #417ADC;
 }
 
 /*@media(max-width:850px) {*/
@@ -110,6 +127,17 @@ li {
   .header-text h1 {
     clear: both;
   }
+
+  ul {
+    margin-top: 50px;
+  }
+
+/*  li a {
+    display: inline-block;
+    margin: 40px 0px 0px 0px;
+    width: 120px;
+    max-width: 120px;
+  }*/
 }
 
 
