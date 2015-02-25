@@ -91,7 +91,8 @@ li {
   padding: 0px 10px 0px 10px;
 }
 
-@media(max-width:850px) {
+/*@media(max-width:850px) {*/
+@media(orientation: portrait) {
   .intro {
     max-width: 100%;
     padding: 100px 0px 0px 0px;
@@ -109,6 +110,7 @@ li {
   .header-text h1 {
     clear: both;
   }
+}
 
 
 
