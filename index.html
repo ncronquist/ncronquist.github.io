@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+
   <title>Nick Cronquist</title>
 
   <link rel="stylesheet" type="text/css" href="./css/normalize.css" >
@@ -9,6 +10,10 @@
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
+  <!--
+    Smooth Scrolling script
+    Found at:  http://css-tricks.com/snippets/jquery/smooth-scrolling/
+  -->
   <script>
   $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
@@ -28,6 +33,7 @@
   </script>
 
 </head>
+
 <body>
 
   <div class="navbar">
@@ -36,8 +42,7 @@
       <a href="#contact">Contact</a>
   </div>
 
-  <header>
-    <a name="home"></a>
+  <header id="home">
     <div class="intro">
       <img src="./img/profile2.jpg">
       <div class="header-text">
@@ -63,11 +68,19 @@
 
   <section id="contact">
     <h2 id="contact">Contact Me</h2>
+    <p>
+      Feel free to email me about jobs, tech news and events, outdoors and sports, or just to say hello! <br><br><br><br>
+    </p>
     <ul>
       <li><a href="https://twitter.com/nicholaibee">Twitter</a></li>
       <li><a href="https://www.linkedin.com/in/ncronquist">LinkedIn</a></li>
       <li><a href="https://github.com/ncronquist">GitHub</a></li>
+      <li><a href="mailto:nick@ncronquist.com">Email</a></li>
     </ul>
+  </section>
+
+  <section id="footer">
+    E: nick@ncronquist.com C: (206) 886-1432
   </section>
 
 </body>
