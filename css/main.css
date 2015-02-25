@@ -1,0 +1,76 @@
+body {
+  background-color: rgba(0, 0, 0, 0.87);
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0,0,0,0.75);
+  text-align: center;
+  padding: 20px 0px;
+  margin: 0px 0px 20px 0px;
+}
+
+.navbar a {
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none; /* Remove underline from link */
+}
+
+.navbar a:hover {
+  background: rgba(255,255,255,0.10);
+}
+
+header {
+  background: url(../img/seattlebnw.jpg) no-repeat center;
+  background-size: cover;
+  color: white;
+  min-height: 850px;
+  text-align: center;
+}
+
+.intro {
+  max-width: 768px;
+  padding: 100px 0px 0px 100px;
+}
+.intro img {
+  float: left;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);filter: grayscale(100%);
+  border-radius: 100px;
+  /*margin: 0px 50px 0px 0px;*/
+}
+
+.header-text h1 {
+  margin-top: 0px;
+  font-size: 40px;
+}
+
+@media(max-width:850px) {
+  .intro {
+    max-width: 100%;
+    padding: 100px 0px 0px 0px;
+    text-align: center;
+  }
+  .intro img {
+    float: none;
+    /*text-align: center;*/
+  }
+
+  .header-text {
+    background-color: rgba(0, 0, 0, 0.30);
+    width: 100%;
+  }
+
+  .header-text h1 {
+    clear: both;
+    /*text-align: center;*/
+  }
+
+
+

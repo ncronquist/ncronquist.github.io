@@ -1,1 +1,84 @@
-My Page
+<!DOCTYPE html>
+
+<head>
+  <title>Nick Cronquist</title>
+
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="./css/main.css" >
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+  <script>
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 3000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
+
+<!--   <script>
+        $(document).ready(function (){
+            $("#clickabout").click(function (){
+                //$(this).animate(function(){
+                    $('html, body').animate({
+                        scrollTop: $("#about").offset().top
+                    }, 2000);
+                //});
+            });
+        });
+    </script> -->
+
+</head>
+<body>
+
+  <div class="navbar">
+      <a href="#home">Nick Cronquist</a>
+      <a href="#about">About Me</a>
+      <a href="#contact">Contact</a>
+  </div>
+  <header>
+    <a name="home"></a>
+    <div class="intro">
+      <img src="./img/profile2.jpg">
+      <div class="header-text">
+        <h1>Nicholas Cronquist</h1>
+        <h3>Software Consultant, Aspiring Web Developer</h3>
+        <h3>Coffee Filled Tech Enthusiast</h3>
+      </div>
+    </div>
+  </header>
+
+  <h2 id="about">About Me</h2>
+    <!-- <a name="about"></a> -->
+    <p>
+      I'm a software implementation consultant in Seattle, WA. For the past four years, I worked with Fast Enterprises, consulting for and implementing their government focused, enterprise revenue softare. I worked heavily with the .NET framework and VB.net and SQL languages.
+    </p>
+    <p>
+      Recently, I decided to pivot towards a more technical/programming focused career and I am currently studying web programming, both on my own and through a class at Code Fellows.
+    </p>
+    <p>
+      In my spare time, I like to ski, follow tech news, and play basketball and ping-pong.
+    </p>
+  <h2 id="contact">Contact Me</h2>
+    <!-- <a name="contact"></a> -->
+    <ul>
+      <li><a href="https://twitter.com/nicholaibee">Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/ncronquist">LinkedIn</a></li>
+      <li><a href="https://github.com/ncronquist">GitHub</a></li>
+    </ul>
+
+<!--   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript/smoothscroll.js"></script>
+ -->
+</body>
