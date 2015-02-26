@@ -16,6 +16,7 @@ h2 {
 
 p {
   font-size: 20px;
+  text-align: justify;
 }
 
 a {
@@ -81,6 +82,9 @@ section {
 section#footer {
   margin: 400px auto 20px auto;
   padding: 0px;
+}
+
+section#footer p {
   text-align: center;
 }
 
