@@ -59,6 +59,10 @@ a {
     transition: all .2s ease-in-out;
 }
 
+.web-link {
+    font-size: 20px;
+}
+
 a:hover,
 a:focus {
     text-decoration: none;

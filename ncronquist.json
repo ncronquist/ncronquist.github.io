@@ -2,22 +2,44 @@
   "firstName": "Nicholas",
   "lastName": "Cronquist",
   "nickName": "Nick",
+  "title": "Full-Stack Web Developer",
   "location": {
     "city": "Seattle",
     "state": "WA"
   },
-  "phoneNumbers": [
+  "contact": {
+    "phoneNumbers": [
+      {
+        "type": "cell",
+        "number": "2068861432",
+        "numberFormatted": "(206) 886-1432",
+        "numberInternationalFormatted": "+1 206-886-1432"
+      },
+      {
+        "type": "Google Voice",
+        "number": "3036569120",
+        "numberFormatted": "(303) 656-9120",
+        "numberInternationalFormatted": "+1 303-656-9120"
+      }
+    ],
+    "email": "nick@ncronquist.com",
+    "twitter": "https://twitter.com/nicholaibee",
+    "github": "https://github.com/ncronquist",
+    "linkedIn": "https://linkedin.com/in/ncronquist"
+  },
+  "aboutMe": "Hey! I'm a full stack web developer in Seattle, WA. I love building things and get especially excited when I get to work on cool back-end projects. I have experience with <strong>Javascript, Node.js, Express, Ruby on Rails, Postgres,</strong> and <strong>MS Sql Sever</strong>.<br>For the past four years, I worked with Fast Enterprises, consulting for and implementing their governement focused, enterprise revenue software. I worked heavily with the .NET framework, and VB.net and SQL languages.<br>When I'm not working at my computer, you can find me skiing, hiking, following tech news, and playing basketball and ping-pong.",
+  "portfolio": [
     {
-      "type": "cell",
-      "number": "2068861432",
-      "numberFormatted": "(206) 886-1432",
-      "numberInternationalFormatted": "+1 206-886-1432"
-    },
-    {
-      "type": "Google Voice",
-      "number": "3036569120",
-      "numberFormatted": "(303) 656-9120",
-      "numberInternationalFormatted": "+1 303-656-9120"
+      "projectName": "Listerlyify",
+      "projectDescription": "Listerlyify is a Twitter app that makes creating and manging your Twitter lists easier. Twitter lists are a great way to organize the people and companies you follow into logical groups, but the Twitter website makes them a pain to use. The goal of Listerlyify is to make it as quick and simple as possible.",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Twitter API"
+      ],
+      "github": "https://github.com/ncronquist/listerlyify",
+      "website": "https://listerlyify.herokuapp.com"
     }
   ]
 }
