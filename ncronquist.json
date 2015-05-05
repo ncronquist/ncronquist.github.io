@@ -1,0 +1,23 @@
+{
+  "firstName": "Nicholas",
+  "lastName": "Cronquist",
+  "nickName": "Nick",
+  "location": {
+    "city": "Seattle",
+    "state": "WA"
+  },
+  "phoneNumbers": [
+    {
+      "type": "cell",
+      "number": "2068861432",
+      "numberFormatted": "(206) 886-1432",
+      "numberInternationalFormatted": "+1 206-886-1432"
+    },
+    {
+      "type": "Google Voice",
+      "number": "3036569120",
+      "numberFormatted": "(303) 656-9120",
+      "numberInternationalFormatted": "+1 303-656-9120"
+    }
+  ]
+}
