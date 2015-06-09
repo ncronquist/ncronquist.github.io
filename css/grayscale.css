@@ -53,7 +53,8 @@ p {
 }
 
 a {
-    color: #42dca3;
+    /*color: #42dca3;*/
+    color: #00406e;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -66,7 +67,8 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    /*color: #1d9b6c;*/
+    color: #0067B0;
 }
 
 .light {
@@ -349,10 +351,13 @@ a:focus {
         border-radius: 10px;
     }
 
-/*    #map {
-        height: 400px;
-        margin-top: 250px;
-    }*/
+    .resume-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 200px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
 
     .contact-section {
         padding-top: 50px;
@@ -374,17 +379,22 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    /*border: 1px solid #42dca3;*/
+    /*color: #42dca3;*/
+    border: 1px solid #00406e;
+    color: #00406e;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    /*border: 1px solid #42dca3;*/
+    border: 1px solid #00406e;
     outline: 0;
-    color: #000;
-    background-color: #42dca3;
+    /*color: #000;*/
+    color: #fff;
+    /*background-color: #42dca3;*/
+    background-color: #00406e;
 }
 
 ul.banner-social-buttons {
