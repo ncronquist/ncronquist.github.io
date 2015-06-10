@@ -93,6 +93,10 @@ a:focus {
     background-color: #000;
 }
 
+.navbar-custom .fa {
+    background-color: #fff;
+}
+
 .navbar-custom .navbar-brand {
     font-weight: 700;
 }
@@ -379,6 +383,10 @@ ul.banner-social-buttons {
 
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
+    }
+
+    .navbar {
+        background-color: #fff;
     }
 }
 
