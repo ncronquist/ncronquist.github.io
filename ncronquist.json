@@ -2,7 +2,7 @@
   "firstName": "Nicholas",
   "lastName": "Cronquist",
   "nickName": "Nick",
-  "title": "Full-Stack Web Developer",
+  "title": "Web Developer & Consultant",
   "location": {
     "city": "Seattle",
     "state": "WA"
@@ -27,19 +27,112 @@
     "github": "https://github.com/ncronquist",
     "linkedIn": "https://linkedin.com/in/ncronquist"
   },
-  "aboutMe": "Hey! I'm a full stack web developer in Seattle, WA. I love building things and get especially excited when I get to work on cool back-end projects. I have experience with <strong>Javascript, Node.js, Express, Ruby on Rails, Postgres,</strong> and <strong>MS Sql Sever</strong>.<br>For the past four years, I worked with Fast Enterprises, consulting for and implementing their governement focused, enterprise revenue software. I worked heavily with the .NET framework, and VB.net and SQL languages.<br>When I'm not working at my computer, you can find me skiing, hiking, following tech news, and playing basketball and ping-pong.",
-  "portfolio": [
+  "summary": "Web developer and consultant with experience leading teams in full life cycle software development. Particularly interested in building communication and automation tools. Experience with Rails, Angular.js, Node.js, .NET, PostgreSQL and MS SQL Server.",
+  "skills": {
+    "programmingLanguages": [
+      "JavaScript",
+      "Ruby",
+      "SQL",
+      "VB.net",
+      "HTML",
+      "CSS"
+    ],
+    "frameworks": [
+      "Rails",
+      "Node.js",
+      "Express",
+      "Angular.js",
+      "Sails.js"
+    ],
+    "databaseTools": [
+      "PostgrSQL",
+      "Microsoft SQL Server",
+      "Active Record",
+      "Sequelize",
+      "Waterline"
+    ],
+    "other": [
+      "Git",
+      "jQuery",
+      "oAuth",
+      "Data Warehouseing",
+      "Data Conversion"
+    ]
+  },
+  "experience": [
     {
-      "projectName": "Listerlyify",
-      "projectDescription": "Listerlyify is a Twitter app that makes creating and manging your Twitter lists easier. Twitter lists are a great way to organize the people and companies you follow into logical groups, but the Twitter website makes them a pain to use. The goal of Listerlyify is to make it as quick and simple as possible.",
-      "technologies": [
-        "Node.js",
-        "Express",
-        "PostgreSQL",
-        "Twitter API"
-      ],
-      "github": "https://github.com/ncronquist/listerlyify",
-      "website": "https://listerlyify.herokuapp.com"
+      "company": "General Assembly",
+      "position": "Web Developer",
+      "location": "Seattle, WA",
+      "timeStart": "2015-03",
+      "timeEnd": "2015-06",
+      "about": [
+        "Spent 70+ hour weeks learning full stack web development",
+        "Front-end web development with Angular.js, Javascript, jQuery, and Bootstrap",
+        "Back-end web development using PostgreSQL and MVC frameworks like Node.js, Epress, Sequelize, Ruby on Rails, and Active Record",
+        "Worked with web APIs like Twitter, Google, Facebook, and Reddit"
+      ]
+    },
+    {
+      "company": "Fast Enterprises",
+      "position": "Implementation Consultant, E-Services Team Lead",
+      "location": "Vientiane, Laos",
+      "timeStart": "2013-03",
+      "timeEnd": "2014-11",
+      "about": [
+        "Oversaw the design and development of the Laos e-services taxpayer website",
+        "Managed fluctuating project requirements and variable time schedules to help Laos meet WTO standards",
+        "Designed and implemented processes for taxpayers to register vehicles and to securely upload attachments to client servers",
+        "Integrated antivirus protection into the e-services environment",
+        "Converted data from the client's legacy systems to Fast Enterprises' Gentax system"
+      ]
+    },
+    {
+      "company": "Fast Enterprises",
+      "position": "Implementation Consultant, Registration and Collections Team Lead",
+      "location": "Baton Rouge, LA",
+      "timeStart": "2011-01",
+      "timeEnd": "2013-03",
+      "about": [
+        "Programmed complex redesign to suspend the licenses of individuals with delinquent tax liabilities",
+        "Developed and maintained several data warehouse entities",
+        "Created discovery processes based on the warehouse data to find new or missed revenue sources",
+        "Produced data cubes, reports, and ad hoc queries to help the government agencies retrieve useful information from their data"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "General Assembly",
+      "degree": "",
+      "program": "web Development Immersive",
+      "year": "2015"
+    },
+    {
+      "school": "University of North Dakota",
+      "degree": "Bachelor of Business Administration",
+      "program": "Information Systems",
+      "year": "2010"
+    }
+  ],
+  "projects": [
+    {
+      "name": "{DevBox}.Tools",
+      "website": "http://www.devbox.tools",
+      "repo": "https://github.com/goopscoop/dev_box",
+      "about": "{DevBox}.Tools is a community-driven database of great developer tools where tools can be upvoted, reviewed, or saved to a user's personal tool box. {DevBox}.Tools was built on Ruby on Rails, Angular, PostgreSQL, Material, and Materialize."
+    },
+    {
+      "name": "Schedulacity",
+      "website": "https://schedulacity.herokuapp.com",
+      "repo": "https://github.com/ncronquist/schedulacity",
+      "about": "Schedulacity is a cloud-based client management app that allows independent instructors to schedule sessions, track attendance, and handle communication with their students. Schedulacity was built on Ruby on Rails using the Google API for oAuth and calendar events as well as the Twilio API for text messaging."
+    },
+    {
+      "name": "Listerlyify",
+      "website": "https://listerlyify.herokuapp.com",
+      "repo": "https://github.com/ncronquist/listerlyify",
+      "about": "Listerlyify is a Twitter app that makes creating and managing your Twitter lists easier. Twitter lists are a great way to organize the people and companies you follow into logical groups, but the Twitter website makes them difficult to use. The goal of Listerlyify is to make it as quick and simple as possible. Listerlyify was built on Node.js using the Twitter API."
     }
   ]
 }
