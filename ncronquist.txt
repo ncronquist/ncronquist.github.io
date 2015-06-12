@@ -49,11 +49,11 @@ Twitter     | nicholaibee
 - Experience
   - Spent 70+ hour weeks learning full stack web development
   - Front-end web development with Angular.js, Javascript, jQuery, and Bootstrap
-  - Back-end web development using PostgreSQL and MVC frameworks like Node.js, Epress, Sequelize, Ruby on Rails, and Active Record
+  - Back-end web development using PostgreSQL and MVC frameworks like Node.js, Express, Sequelize, Ruby on Rails, and Active Record
   - Worked with web APIs like Twitter, Google, Facebook, and Reddit
 
 ### Fast Enterprises
-- Implmentation Consultant, E-Services Team Lead
+- Implementation Consultant, E-Services Team Lead
 - Mar 2014 Nov 2014
 - Vientiane, Laos
 - Experience
