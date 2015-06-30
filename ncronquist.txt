@@ -43,12 +43,12 @@ Twitter     | nicholaibee
 ## Experience
 
 ### General Assembly
-- Web Developer
+- Web Development Immersive Student
 - Mar 2015 - Jun 2015
 - Seattle, WA
 - Experience
   - Spent 70+ hour weeks learning full stack web development
-  - Front-end web development with Angular.js, Javascript, jQuery, and Bootstrap
+  - Front-end web development with Angular.js, JavaScript, jQuery, and Bootstrap
   - Back-end web development using PostgreSQL and MVC frameworks like Node.js, Express, Sequelize, Ruby on Rails, and Active Record
   - Worked with web APIs like Twitter, Google, Facebook, and Reddit
 

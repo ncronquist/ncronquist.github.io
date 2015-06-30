@@ -55,7 +55,7 @@
       "Git",
       "jQuery",
       "oAuth",
-      "Data Warehouseing",
+      "Data Warehousing",
       "Data Conversion"
     ]
   },
@@ -68,8 +68,8 @@
       "timeEnd": "2015-06",
       "about": [
         "Spent 70+ hour weeks learning full stack web development",
-        "Front-end web development with Angular.js, Javascript, jQuery, and Bootstrap",
-        "Back-end web development using PostgreSQL and MVC frameworks like Node.js, Epress, Sequelize, Ruby on Rails, and Active Record",
+        "Front-end web development with Angular.js, JavaScript, jQuery, and Bootstrap",
+        "Back-end web development using PostgreSQL and MVC frameworks like Node.js, Express, Sequelize, Ruby on Rails, and Active Record",
         "Worked with web APIs like Twitter, Google, Facebook, and Reddit"
       ]
     },
