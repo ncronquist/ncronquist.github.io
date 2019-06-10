@@ -1,110 +1,110 @@
-# Nicholas Cronquist
-- Web Developer & Consultant
+Nicholas Cronquist
+===================
 
-## Contact
+Web Developer
+
+
+Contact
+--------
 
 Type        | Value
 ------------|-------------------
 Email       | nick@ncronquist.com
 Website     | ncronquist.com
 Phone       | (206) 886-1432
-Location    | Seattle, WA
 LinkedIn    | ncronquist
 GitHub      | ncronquist
 Twitter     | nicholaibee
 
-## Summary
-- Web developer and consultant with experience leading teams in full life cycle software development. Particularly interested in building communication and automation tools. Experience with Rails, Angular.js, Node.js, .NET, PostgreSQL and MS SQL Server.
 
-## Skills
+Summary
+--------
+
+Software engineer with 8+ years experience leading teams to develop, deploy, and manage web services. Passionate about building platforms and tools that help development teams to be more productive. Former consultant with experience determining priorities and balancing business and technical needs. Always excited to learn new things.
+
+Skills
+-------
+
 
 ### Programming Languages
-- JavaScript
-- Ruby
-- SQL
-- VB.net
-- HTML
-- CSS
 
-### Frameworks
-- PostgreSQL
+- JavaScript (Node.js)
+- Elixir
+- Bash
+- Experience with Python, Golang, Groovy, SQL, VB.net, and Ruby
+
+
+### Database Tools
+
+- Elasticsearch
 - Microsoft SQL Server
-- Sequelize
-- Active Record
-- Waterline
+- RethinkDB
+- Redis
+
 
 ### Other Technologies and Skills
+
 - Git
-- jQuery
-- oAuth
-- Data warehousing
-- Data conversion
+- Docker
+- GraphQL
+- Continuous Integration and Delivery (Circle CI and Jenkins)
+- AWS
+- Kubernetes
+- Ansible
+- Test Driven Development
 
-## Experience
 
-### General Assembly
-- Web Development Immersive Student
-- Mar 2015 - Jun 2015
-- Seattle, WA
-- Experience
-  - Spent 70+ hour weeks learning full stack web development
-  - Front-end web development with Angular.js, JavaScript, jQuery, and Bootstrap
-  - Back-end web development using PostgreSQL and MVC frameworks like Node.js, Express, Sequelize, Ruby on Rails, and Active Record
-  - Worked with web APIs like Twitter, Google, Facebook, and Reddit
+Employment
+----------
+
+
+### SAP Concur
+
+- Software Design Engineer
+- Aug 2015 - Current
+- Bellevue, WA
+
+    Worked on multiple teams with end-to-end ownership of services, including development, testing, and operations. Promoted comprehensive and effective automated testing on all projects to improve confidence in changes and deployments. Mentored junior developers and conducted technical hiring interviews.
+
+    _Client Data Services (CDS)_
+
+    GraphQL PaaS allowing developers to deploy small pieces of a GraphQL schema. Contributed to all parts of the CDS platform including the base engine and local emulator written in NodeJS, management CLI written in Golang, and the AWS and Kubernetes infrastructure that the platform runs on. Implemented the initial resolver stitching and added support for remote schemas; a key part of the local emulator.
+
+    _Orchestration_
+
+    GraphQL service exposing Concur API data to the Concur UI teams. Focused heavily on organizing Concur's complex data model into an easier to consume view model. Used view model designs to create a GraphQL schema and associated resolver code written in Elixir. Improved the reliability of the service through better automation and monitoring, support for asynchronous mutations, and more resilient code handling of upstream API requests.
+
+    _Receipts_
+
+    HATEOS driven REST API that manages receipts at Concur. Improved the image generation process and built functional tests that greatly reduced bug frequency. Automated Kubernetes deployments dealing with both stateful and stateless resources. Managed date, time, and other globalization issues for a service used by clients around the world.
 
 ### Fast Enterprises
+
 - Implementation Consultant, E-Services Team Lead
-- Mar 2013 Nov 2014
+- Mar 2013 - Nov 2014
 - Vientiane, Laos
-- Experience
-  - Oversaw the design and development of the Laos e-services taxpayer website
-  - Managed fluctuating project requirements and variable time schedules to help Laos meet WTO standards
-  - Designed and implemented processes for taxpayers to register vehicles and to securely upload attachments to client servers
-  - Integrated antivirus protection into the e-services environment
-  - Converted data from the client's legacy systems to Fast Enterprises' Gentax system
 
-### Fast Enterprises
+    Oversaw the design and development of the Laos e-services taxpayer website. Managed fluctuating project requirements and variable time schedules to help Laos meet WTO standards. Designed and implemented processes for taxpayers to register vehicles and to securely upload attachments to client servers. Integrated antivirus protection into the e-services environment. Converted data from the client's legacy systems to Fast Enterprises' Gentax system.
+
+
 - Implementation Consultant, Registration and Collections Team Lead
 - Jan 2011 - Mar 2013
 - Baton Rouge, LA
-- Experience
-  - Programmed complex redesign to suspend the licenses of individuals with delinquent tax liabilities
-  - Developed and maintained several data warehouse entities
-  - Created discovery processes based on the warehouse data to find new or missed revenue sources
-  - Produced data cubes, reports, and ad hoc queries to help the government agencies retrieve useful information from their data
 
-## Projects
+    Programmed complex redesign to suspend the licenses of individuals with delinquent tax liabilities. Developed and maintained several data warehouse entities. Created discovery processes based on data warehouse information to find new or missed revenue sources. Produced data cubes, reports, and ad hoc queries to help the government agencies retrieve useful information from their data.
 
-### {DevBox}.Tools
-- Website - http://www.devbox.tools
-- GitHub - https://github.com/goopscoop/dev_box
 
-{DevBox}.Tools is a community-driven database of great developer tools where tools can be upvoted, reviewed, or saved to a user's personal tool box.
+Education
+----------
 
-{DevBox}.Tools was built on Ruby on Rails, Angular, PostgreSQL, Material, and Materialize.
-
-### Schedulacity
-- Website - https://schedulacity.herokuapp.com/
-- GitHub - https://github.com/ncronquist/schedulacity
-
-Schedulacity is a cloud-based client management app that allows independent instructors to schedule sessions, track attendance, and handle communication with their students.
-
-Schedulacity was built on Ruby on Rails using the Google API for oAuth and calendar events as well as the Twilio API for text messaging.
-
-### Listerlyify
-- Website - https://listerlyify.herokuapp.com
-- GitHub - https://github.com/ncronquist/listerlyify
-
-Listerlyify is a Twitter app that makes creating and managing your Twitter lists easier. Twitter lists are a great way to organize the people and companies you follow into logical groups, but the Twitter website makes them difficult to use. The goal of Listerlyify is to make it as quick and simple as possible.
-
-Listerlyify was built on Node.js using the Twitter API.
-
-## Education
 
 ### General Assembly
+
 - Web Development Immersive
 - 2015
 
+
 ### University of North Dakota
+
 - Bachelor of Business Administration Information Systems
 - 2010
