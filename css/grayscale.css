@@ -35,6 +35,9 @@ h6 {
     letter-spacing: 1px;
 }
 
+iframe {
+    box-shadow: 0 0 10px #00406e
+}
 p {
     margin: 0 0 25px;
     font-size: 18px;
