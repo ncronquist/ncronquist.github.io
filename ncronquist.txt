@@ -20,7 +20,12 @@ Twitter     | nicholaibee
 Summary
 --------
 
-Software engineer with 8+ years experience leading teams to develop, deploy, and manage web services. Passionate about building platforms and tools that help development teams to be more productive. Former consultant with experience determining priorities and balancing business and technical needs. Always excited to learn new things.
+Software engineer with 8+ years experience leading teams to develop, deploy,
+and manage web services. Passionate about building platforms and tools to help
+development teams be more productive. Former consultant with experience
+determining priorities and balancing business and technical needs. Always
+excited to learn new things.
+
 
 Skills
 -------
@@ -30,15 +35,13 @@ Skills
 
 - JavaScript (Node.js)
 - Elixir
-- Bash
-- Experience with Python, Golang, Groovy, SQL, VB.net, and Ruby
+- Experience with Bash, Golang, Ruby, Python, Groovy, and SQL
 
 
 ### Database Tools
 
 - Elasticsearch
 - Microsoft SQL Server
-- RethinkDB
 - Redis
 
 
@@ -50,8 +53,6 @@ Skills
 - Continuous Integration and Delivery (Circle CI and Jenkins)
 - AWS
 - Kubernetes
-- Ansible
-- Test Driven Development
 
 
 Employment
@@ -64,19 +65,40 @@ Employment
 - Aug 2015 - Current
 - Bellevue, WA
 
-    Worked on multiple teams with end-to-end ownership of services, including development, testing, and operations. Promoted comprehensive and effective automated testing on all projects to improve confidence in changes and deployments. Mentored junior developers and conducted technical hiring interviews.
+Worked on multiple teams designing and building distributed systems with
+end-to-end ownership of services. Projects focused on moving Concur from a
+monolithic architecture to a service oriented architecture. Promoted automation
+of tests, builds, and deployments on all projects to increase velocity and
+improve confidence in changes. Mentored junior developers and conducted
+technical hiring interviews.
 
-    _Client Data Services (CDS)_
+_Client Data Services (CDS)_
 
-    GraphQL PaaS allowing developers to deploy small pieces of a GraphQL schema. Contributed to all parts of the CDS platform including the base engine and local emulator written in NodeJS, management CLI written in Golang, and the AWS and Kubernetes infrastructure that the platform runs on. Implemented the initial resolver stitching and added support for remote schemas; a key part of the local emulator.
+GraphQL PaaS allowing developers to deploy small pieces of a GraphQL schema.
+Contributed to all parts of the CDS platform including the base engine and
+local emulator written in NodeJS, management CLI written in Golang, and the
+AWS and Kubernetes infrastructure. Implemented the initial resolver stitching
+and added support for remote schemas; a key part of the local emulator.
 
-    _Orchestration_
+_Orchestration_
 
-    GraphQL service exposing Concur API data to the Concur UI teams. Focused heavily on organizing Concur's complex data model into an easier to consume view model. Used view model designs to create a GraphQL schema and associated resolver code written in Elixir. Improved the reliability of the service through better automation and monitoring, support for asynchronous mutations, and more resilient code handling of upstream API requests.
+GraphQL service exposing Concur API data to the Concur UI teams. Organized a
+complex data model into an easier to consume view model. Used view model
+designs to create a GraphQL schema and associated resolver code written in
+Elixir. Improved the reliability of the service through better automation and
+monitoring, support for asynchronous mutations, and more resilient code handling
+of upstream API requests.
 
-    _Receipts_
+_Receipts_
 
-    HATEOS driven REST API that manages receipts at Concur. Improved the image generation process and built functional tests that greatly reduced bug frequency. Automated Kubernetes deployments dealing with both stateful and stateless resources. Managed date, time, and other globalization issues for a service used by clients around the world.
+HATEOS driven REST API that manages receipts at Concur. Implemented queuing and
+event processing for all I/O actions to improve fault tolerance and to increase
+performance through parallel processing. Improved image generation process and
+built functional tests that greatly reduced bug frequency. Automated Kubernetes
+deployments dealing with both stateful and stateless resources. Managed date,
+time, and other globalization issues for a service used by clients around the
+world.
+
 
 ### Fast Enterprises
 
@@ -84,14 +106,24 @@ Employment
 - Mar 2013 - Nov 2014
 - Vientiane, Laos
 
-    Oversaw the design and development of the Laos e-services taxpayer website. Managed fluctuating project requirements and variable time schedules to help Laos meet WTO standards. Designed and implemented processes for taxpayers to register vehicles and to securely upload attachments to client servers. Integrated antivirus protection into the e-services environment. Converted data from the client's legacy systems to Fast Enterprises' Gentax system.
+Oversaw the design and development of the Laos e-services taxpayer website.
+Managed fluctuating project requirements and variable time schedules to help
+Laos meet WTO standards. Designed and implemented processes for taxpayers to
+register vehicles and to securely upload attachments to client servers.
+Integrated antivirus protection into the e-services environment. Converted data
+from the client's legacy systems to Fast Enterprises' Gentax system.
 
 
 - Implementation Consultant, Registration and Collections Team Lead
 - Jan 2011 - Mar 2013
 - Baton Rouge, LA
 
-    Programmed complex redesign to suspend the licenses of individuals with delinquent tax liabilities. Developed and maintained several data warehouse entities. Created discovery processes based on data warehouse information to find new or missed revenue sources. Produced data cubes, reports, and ad hoc queries to help the government agencies retrieve useful information from their data.
+Programmed complex redesign to suspend the licenses of individuals with
+delinquent tax liabilities. Developed and maintained several data warehouse
+entities. Created discovery processes based on data warehouse information to
+find new or missed revenue sources. Produced data cubes, reports, and ad hoc
+queries to help the government agencies retrieve useful information from their
+data.
 
 
 Education
