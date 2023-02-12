@@ -1,4 +1,4 @@
-Nicholas Cronquist
+Nick Cronquist
 ===================
 
 Software Engineer
@@ -7,66 +7,64 @@ Software Engineer
 Contact
 --------
 
-Type        | Value
-------------|-------------------
-Email       | nick@ncronquist.com
-Website     | ncronquist.com
-Phone       | (206) 886-1432
-LinkedIn    | ncronquist
-GitHub      | ncronquist
-Twitter     | nicholaibee
+| Type     | Value               |
+| -------- | ------------------- |
+| Email    | nick@ncronquist.com |
+| Website  | ncronquist.com      |
+| Phone    | (206) 886-1432      |
+| LinkedIn | ncronquist          |
+| GitHub   | ncronquist          |
+| Twitter  | nicholaibee         |
 
 
 Employment
 ----------
 
 
-### Blackstone
+### Olive
 
-- Platform Engineer
-- Sept 2019 - Current
-- New York, NY
+- Senior Software Engineer
+- July 2021 - Current
+- Remote
 
-Deployed, integrated, and managed services with an emphasis on automation and
-security as a part of building Blackstone's cloud platform. Helped to define and
-promote best practices around Terraform usage and CI/CD. Wrote AWS MFA and role
-assumption script used throughout engineering team. Documented and advocated for
-Windows Subsystem for Linux usage which resulted in team switching away from VM
-development.
+Developed Olive's Assures product, an incubation project to accelerate
+healthcare provider payments process, and worked on the Orchestration service, a
+platform for scheduling and management of robotic process automations (RPAs).
+Researched and designed S3 storage change that reduced S3 costs by 40% per
+month. Created CI and repository templates used across the company that improved
+project quality and reduced friction for developers. Played an instrumental role
+in standardizing Terraform usage and deployment patterns company-wide. Provided
+thorough and timely code reviews to keep code quality high and unblock other
+developers. Mentored junior developers.
 
 
 ### SAP Concur
 
-- Software Design Engineer
-- Aug 2015 - Sept 2019
+- Software Design Engineer / Senior Developer
+- Aug. 2015 - Sept. 2019, Jan. 2021 - July 2021
 - Bellevue, WA
 
 Worked on multiple teams designing and building highly available distributed
 systems with end-to-end ownership of services. Projects focused on moving Concur
-from a monolithic architecture to a service oriented architecture. Promoted
-automation of tests, builds, and deployments on all projects to increase
-velocity and improve confidence in changes. Mentored junior developers and
-conducted technical hiring interviews.
+from a monolithic architecture to a service oriented architecture. Built CLIs,
+and REST and GraphQL APIs. Promoted automation of tests, builds, and deployments
+on all projects to increase velocity and improve confidence in changes.
+Automated deployments that reduced developer deployment time by 75% and
+increased deployment frequency from once every couple of weeks to multiple times
+per week. Mentored junior developers and conducted technical hiring interviews.
 
-_Client Data Services (CDS)_: GraphQL PaaS allowing developers to deploy small
-pieces of a GraphQL schema. Contributed to all parts of the CDS platform
-including the base engine and local emulator written in NodeJS, management CLI
-written in Golang, and the AWS and Kubernetes infrastructure. Implemented the
-initial resolver stitching and added support for remote schemas; a key part of
-the local emulator.
 
-_Orchestration_: GraphQL service exposing Concur API data to Concur UI teams.
-Organized a complex data model into an easier to consume view model. Used view
-model designs to create a GraphQL schema and associated resolver code written
-in Elixir. Improved the reliability of the service through better automation
-and monitoring, support for asynchronous mutations, and more resilient code
-handling of upstream API requests.
+### Blackstone
 
-_Receipts_: HATEOS driven REST API that manages receipts at Concur. Implemented
-queuing and event processing for all I/O actions to improve fault tolerance and
-to increase performance through parallel processing. Improved image generation
-process and built functional tests that greatly reduced bug frequency. Automated
-Kubernetes deployments dealing with both stateful and stateless resources.
+- Platform Engineer
+- Sept. 2019 - Jan. 2021
+- New York, NY
+
+Deployed, integrated, and managed services with an emphasis on automation and
+security as a part of building Blackstone's cloud platform. Helped to define and
+promote best practices around Terraform usage and CI/CD. Led the deployment of
+Terraform Enterprise and helped to implement per Terraform workspace AWS auth.
+Maintained and managed the existing Jenkins service.
 
 
 ### Fast Enterprises
@@ -76,10 +74,10 @@ Kubernetes deployments dealing with both stateful and stateless resources.
 - Baton Rouge, LA; Vientiane, Laos
 
 Led teams in design, configuration and implementation of Fast's custom tax
-software for government agencies. Developed and maintained several data
-warehouse entities. Produced data cubes, reports, and ad hoc queries to help
-the government agencies retrieve useful information from their data. Oversaw
-the design and development of the Laos e-services taxpayer website. Designed and
+software for government agencies (Gentax). Developed and maintained several data
+warehouse entities. Produced data cubes, reports, and ad hoc queries to help the
+government agencies retrieve useful information from their data. Oversaw the
+design and development of the Laos e-services taxpayer website. Designed and
 implemented processes for taxpayers to register vehicles and to securely upload
 attachments to client servers. Performed data migration from legacy systems to
 Gentax.
@@ -92,25 +90,29 @@ Skills
 ### Programming Languages
 
 - JavaScript (Node.js)
+- Typescript
+- Terraform
 - Golang
-- Experience with Bash, Elixir, Python, Ruby, Groovy, and SQL
+- Experience with Bash, Elixir, Python, Ruby
 
 
 ### Database Tools
 
 - Elasticsearch
+- PostgreSQL (RDE/Aurora)
 - Microsoft SQL Server
+- DynamoDB
 - Redis
 
 
 ### Other Technologies and Skills
 
-- Docker
+- IaC
+- Serverless Architecture
 - REST
 - GraphQL
-- AWS
-- Terraform
-- Continuous Integration and Delivery (Circle CI, Jenkins, GitHub Actions)
+- Docker
+- Continuous Integration and Delivery (GitLab CI/CD, Jenkins, GitHub Actions)
 
 
 Education
@@ -127,3 +129,18 @@ Education
 
 - Bachelor of Business Administration Information Systems
 - 2010
+
+
+Volunteering
+-------------
+
+
+### Pursuit
+
+- Mock Technical Interviewer
+- Feb. 2020 - Feb. 2022
+- New York, NY
+
+Conducted mock technical interviews for Pursuit fellows to help them prepare for
+their job searches. Pursuit is a social impact organization that trains adults
+with the most need and potential to gain their first tech jobs.
