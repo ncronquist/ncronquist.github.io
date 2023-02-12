@@ -113,6 +113,7 @@ Skills
 - GraphQL
 - Docker
 - Continuous Integration and Delivery (GitLab CI/CD, Jenkins, GitHub Actions)
+- Ansible
 
 
 Education
