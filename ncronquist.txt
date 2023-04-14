@@ -27,15 +27,16 @@ Employment
 - July 2021 - Current
 - Remote
 
-Developed Olive's Assures product, an incubation project to accelerate
-healthcare provider payments process, and worked on the Orchestration service, a
-platform for scheduling and management of robotic process automations (RPAs).
-Researched and designed S3 storage change that reduced S3 costs by 40% per
-month. Created CI and repository templates used across the company that improved
-project quality and reduced friction for developers. Played an instrumental role
-in standardizing Terraform usage and deployment patterns company-wide. Provided
-thorough and timely code reviews to keep code quality high and unblock other
-developers. Mentored junior developers.
+Developed on Olive's Assures product, an incubation project to accelerate
+healthcare provider payments process, built as an event driven architecture.
+Worked on the Orchestration service, a platform for scheduling and management of
+robotic process automations (RPAs), built as a mix of REST APIs, state machines,
+and server agents. Investigated and proposed S3 storage change that reduced S3
+monthly storage costs by 40%. Created CI and repository templates used across
+the company that improved project quality and reduced friction for developers.
+Played an instrumental role in standardizing Terraform usage and deployment
+patterns company-wide. Provided thorough and timely code reviews to keep code
+quality high and unblock other developers. Mentored junior developers.
 
 
 ### SAP Concur
